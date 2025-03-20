@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <!-- Meta Tags e Configurações Básicas -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título e Favicon -->
+  <title>Trellis - O Design Que Te Faz Crescer!</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Google Fonts e Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Scripts para as funcionalidades -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ==================== NAVEGAÇÃO & HEADER ==================== -->
+  <header class="main-header">
+    <nav class="navbar navbar-light">
+      <div class="logo">
+        <a href="#hero">Trellis</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#porque">Porque Trellis?</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pedido">Pedido</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <!-- Botão Hamburger para Mobile -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    
+    <!-- Seção Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <!-- Fita decorativa -->
+      <div class="ribbon">🔥 DESIGN DE IMPACTO 🔥</div>
+      <div class="hero-content">
+        <h1 class="hero-title">O DESIGN QUE TE FAZ CRESCER! 🚀🔥</h1>
+        <p class="hero-description">
+          Não somos só designers, somos alquimistas visuais. Pegamos a tua marca e transformamos em OURO. ✨💰<br>
+          Se queres ser só mais um, fecha o site. Se queres marcar presença, já sabes… clica aí! 👇
+        </p>
+        <a href="#pedido" class="btn hero-btn glow">Pedir um orçamento</a>
+      </div>
+    </section>
+  </header>
+  
+  <!-- ==================== SEÇÃO SOBRE ==================== -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container">
+      <h2 class="section-title">Sobre a Trellis</h2>
+      <div class="sobre-content">
+        <div class="sobre-text">
+          <p>
+            A Trellis é uma empresa de design especializada em identidades visuais e branding marcante. 
+            Transformamos marcas em experiências únicas, combinando arte e estratégia.
+          </p>
+          <p>
+            Cada detalhe conta – do conceito à execução, entregamos resultados que fazem sua marca brilhar.
+          </p>
+        </div>
+        <div class="sobre-image">
+          <img src="images/sobre-img.jpg" alt="Sobre a Trellis">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ==================== SEÇÃO PORQUE TRELLIS ==================== -->
+  <section id="porque" class="section porque-section">
+    <div class="container">
+      <h2 class="section-title">Porque Trellis?</h2>
+      <div class="benefits">
+        <div class="benefit-item">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Criatividade Nível 1000</h3>
+          <p>Nem o Da Vinci faria melhor.</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-bolt"></i>
+          <h3>Entrega Rápida</h3>
+          <p>Tão rápido que até o Flash ficava com inveja.</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>Design que Vende</h3>
+          <p>Beleza com estratégia – não é só decoração.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ==================== SEÇÃO PORTFÓLIO ==================== -->
+  <section id="portfolio" class="section portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Nosso Portfolio</h2>
+      <!-- Carrossel de Projetos -->
+      <div class="carousel">
+        <button class="carousel-btn left"><i class="fas fa-chevron-left"></i></button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide">
+              <img src="images/design1.jpg" alt="Projeto 1" class="carousel-image">
+              <div class="slide-caption">
+                <h4>Projeto 1</h4>
+                <p>Identidade visual completa.</p>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <img src="images/design2.jpg" alt="Projeto 2" class="carousel-image">
+              <div class="slide-caption">
+                <h4>Projeto 2</h4>
+                <p>Logotipo e branding marcante.</p>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <img src="images/design3.jpg" alt="Projeto 3" class="carousel-image">
+              <div class="slide-caption">
+                <h4>Projeto 3</h4>
+                <p>Design inovador para redes sociais.</p>
+              </div>
+            </li>
+            <li class="carousel-slide">
+              <img src="images/design4.jpg" alt="Projeto 4" class="carousel-image">
+              <div class="slide-caption">
+                <h4>Projeto 4</h4>
+                <p>Campanha publicitária impactante.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-btn right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ==================== SEÇÃO PEDIDO / FORMULÁRIO ==================== -->
+  <section id="pedido" class="section pedido-section">
+    <div class="container">
+      <h2 class="section-title">Faça o Seu Pedido</h2>
+      <div class="form-container">
+        <form action="submit.php" method="POST" class="pedido-form">
+          <div class="form-group">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+          </div>
+          <div class="form-group">
+            <label for="tipo">Tipo de Projeto:</label>
+            <select id="tipo" name="tipo-projeto" required>
+              <option value="">Selecione uma opção</option>
+              <option value="logotipo">Logotipo</option>
+              <option value="identidade">Identidade Visual</option>
+              <option value="banner">Banner</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="descricao">Descrição do Projeto:</label>
+            <textarea id="descricao" name="descricao" placeholder="Descreva o que precisa" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn form-btn glow">Enviar Pedido</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ==================== SEÇÃO CONTATO ==================== -->
+  <section id="contato" class="section contato-section">
+    <div class="container">
+      <h2 class="section-title">Entre em Contato</h2>
+      <div class="contato-content">
+        <div class="contato-info">
+          <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua da Criatividade, 123 – Centro, Cidade</p>
+          <p><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</p>
+          <p><i class="fas fa-envelope"></i> Email: contato@trellisdesign.com</p>
+          <div class="social-contato">
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="contato-mapa">
+          <!-- Embed do Google Maps (substitua o src conforme sua localização) -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <h3 class="footer-logo">Trellis</h3>
+        <ul class="footer-nav">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#porque">Porque Trellis?</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pedido">Pedido</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-middle">
+        <div class="footer-info">
+          <h4>Informações</h4>
+          <p>Transformamos marcas em experiências inesquecíveis. Seja ousado, seja Trellis!</p>
+        </div>
+        <div class="footer-social">
+          <h4>Siga-nos</h4>
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <form action="subscribe.php" method="POST" class="newsletter-form">
+            <input type="email" name="newsletter-email" placeholder="Seu email" required>
+            <button type="submit" class="btn newsletter-btn">Inscrever</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Trellis Design. Todos os direitos reservados.</p>
+        <p>Se ainda não pediste o teu design, estás a perder tempo. 🤡</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- ==================== MODAL (OPCIONAL) ==================== -->
+  <div id="modal-info" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2>Mais Sobre a Trellis</h2>
+      <p>A Trellis se orgulha de sua equipe criativa e inovadora. Conheça nossos cases de sucesso e descubra o que nos torna únicos.</p>
+    </div>
+  </div>
+</body>
+</html>
