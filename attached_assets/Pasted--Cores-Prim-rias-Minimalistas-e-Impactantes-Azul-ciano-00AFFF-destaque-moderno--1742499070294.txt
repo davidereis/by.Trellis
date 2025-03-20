@@ -1,0 +1,73 @@
+🔵 Cores Primárias (Minimalistas e Impactantes)
+
+    Azul-ciano (#00AFFF) – destaque moderno
+    Azul super escuro (#001F3F) – fundo sofisticado
+    Branco (#FFFFFF) – para contraste e legibilidade
+
+🖥️ Estrutura do Site
+
+📌 1. Página Inicial (Landing Page de Alto Impacto)
+
+    Hero section com frase de impacto: "Transformamos ideias em identidades inesquecíveis."
+    Botão CTA chamativo: “Solicitar um Orçamento”
+    Animações suaves e efeito parallax
+    Seção com clientes satisfeitos e reviews estilizados
+
+📌 2. Sobre Nós (Crew Criativa)
+
+    Explicação do conceito da Trellis como uma Crew Criativa, diferente de agências comuns
+    Equipe apresentada com imagens estilizadas
+    Modo storytelling: "Fazemos diferente, porque somos diferentes"
+
+📌 3. Serviços (Categorias Bem Definidas)
+🏆 Categoria 1: Identidade Visual & Branding
+
+🔹 Criação de logotipos profissionais
+🔹 Desenvolvimento de manuais de marca
+🔹 Definição de paleta de cores e tipografia
+🔹 Design de identidade visual completa
+🎨 Categoria 2: Design Gráfico & Mídia Digital
+
+🔹 Criação de posts para redes sociais
+🔹 Design de banners, capas e thumbnails
+🔹 Layouts para e-books, apresentações e materiais gráficos
+🔹 UI/UX para websites e aplicativos
+🚀 Categoria 3: Marketing & Gestão Digital
+
+🔹 Planejamento estratégico para redes sociais
+🔹 Gestão e criação de conteúdo para Instagram, Facebook, LinkedIn
+🔹 Desenvolvimento de campanhas publicitárias e anúncios
+🔹 Estratégias de engajamento e crescimento orgânico
+💻 Categoria 4: Web Design & Desenvolvimento
+
+🔹 Criação de sites institucionais e landing pages
+🔹 Design responsivo e otimizado para SEO
+🔹 Integração com sistemas e formulários interativos
+🔹 Desenvolvimento de portfólios digitais personalizados
+
+📌 4. Formulário Personalizado com Briefing Inteligente
+
+    Captação de leads com perguntas estratégicas
+    Escolha de estilo: Minimalista, Futurista, Radical, Clássico
+    Definição de objetivos e orçamento
+    Integração com WhatsApp para fechamento rápido
+
+📌 5. Portfólio (O que já fizemos)
+
+    Grid dinâmico mostrando projetos
+    Efeitos interativos ao passar o mouse
+    Link direto para redes sociais
+
+📌 6. Contato
+
+    Integração com WhatsApp e Instagram
+    Localização interativa (caso necessário)
+    Formulário rápido para orçamentos express
+
+💡 Extras para um Site de Alto Nível:
+
+✅ Dark Mode opcional
+✅ Scroll interativo suave
+✅ Elementos 3D e hover effects
+✅ SEO otimizado para alta conversão
+✅ Carregamento ultrarrápido e responsivo
